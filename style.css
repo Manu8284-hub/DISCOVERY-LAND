@@ -1,0 +1,61 @@
+body{
+  background-image: url(https://www.datocms-assets.com/128889/1714130391-outdoor-adventures-in-the-caribbean.jpg?auto=format&dpr=0.25&fit=max&h=3000&w=2000%20500w,https://www.datocms-assets.com/128889/1714130391-outdoor-adventures-in-the-caribbean.jpg?auto=format&dpr=0.5&fit=max&h=3000&w=2000%201000w,https://www.datocms-assets.com/128889/1714130391-outdoor-adventures-in-the-caribbean.jpg?auto=format&dpr=0.75&fit=max&h=3000&w=2000%201500w,https://www.datocms-assets.com/128889/1714130391-outdoor-adventures-in-the-caribbean.jpg?auto=format&fit=max&h=3000&w=2000%202000w);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.logo{
+  padding-top: 2px;
+  width: 130px;
+  display: flex;
+
+}
+.navbar a{
+  color: aliceblue;
+}
+.navbar{
+  display: flex;
+  /* padding-left: 300px; */
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+.list{
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  padding: 10px 780px;
+}
+.name{
+  text-decoration: solid;
+  font-size: 30px;
+  color: aliceblue;
+  padding-left:600px;
+  padding-top: 250px;
+}
+
+.gallery{
+    background-image: url(https://www.datocms-assets.com/128889/1714657126-bakers-bay-golf-and-ocean-club-copy.jpg?auto=format&fit=max&h=3000&w=2000);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.image-row img {
+  width: 750px;  /* adjust as needed */
+  height: 300px;
+  object-fit: cover;
+}
+
+
