@@ -6,8 +6,9 @@ body{
   overflow-y: scroll;
 }
 .logo{
-  padding-top: 2px;
-  width: 130px;
+  padding-top: 20px;
+  /* padding-left: 10px; */
+  width: 200px;
   display: flex;
 
 }
@@ -29,10 +30,12 @@ body{
 }
 .name{
   text-decoration: solid;
-  font-size: 30px;
-  color: aliceblue;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: rgb(255,219,172);
   padding-left:600px;
   padding-top: 250px;
+  padding-bottom: 500px;
 }
 
 .gallery{
@@ -57,5 +60,24 @@ body{
   height: 300px;
   object-fit: cover;
 }
+/* CSS */
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+
 
 
